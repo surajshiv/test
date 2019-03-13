@@ -3,5 +3,5 @@ if pythonic=='yes':
     print('do coding')
 else:
     print('learn code')
-	print('learn no')
+        print('learn manu:wq')
     
