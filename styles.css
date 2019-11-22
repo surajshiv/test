@@ -1,0 +1,16 @@
+h2{
+color: aqua;
+text-align: center;
+}
+p{
+
+    color: brown;
+    text-align: end;
+}
+div{
+    background-color: darksalmon ;
+    width: 90%;
+    height: 40px;
+    margin: 30px;
+    padding: 10px;
+}
