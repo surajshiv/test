@@ -1,0 +1,346 @@
+    1  git clone http://sesseri03491.ss.sw.ericsson.se/VivekGnanavelu/flask-api-template.git
+    2  git clone http://sesseri03491.ss.sw.ericsson.se/VivekGnanavelu/flask-api-template.git
+    3  git clone http://sesseri03491.ss.sw.ericsson.se/VivekGnanavelu/flask-api-template.git
+    4  git config -l
+    5  git credential-cache exit
+    6  git clone http://sesseri03491.ss.sw.ericsson.se/VivekGnanavelu/flask-api-template.git
+    7  git config credential.helper 'cache --timeout=30'
+    8  git config credential.helper cache
+    9  pwd
+   10  ls
+   11  git clone http://sesseri03491.ss.sw.ericsson.se/VivekGnanavelu/flask-api-template.git
+   12  git clone http://sesseri03491.ss.sw.ericsson.se/VivekGnanavelu/flask-api-template.git
+   13  git config --global --unset credential.helper
+   14  git clone http://sesseri03491.ss.sw.ericsson.se/VivekGnanavelu/flask-api-template.git
+   15  git config --system --unset credential.helper
+   16  git config --global --unset credential.helper manager
+   17  git clone http://sesseri03491.ss.sw.ericsson.se/VivekGnanavelu/flask-api-template.git
+   18  git clone http://sesseri03491.ss.sw.ericsson.se/VivekGnanavelu/flask-api-template.git
+   19  git clone https://github.com/surajshiv/test.git
+   20  ls
+   21  cd test/
+   22  ls
+   23  git status
+   24  history
+   25  git status
+   26  clear
+   27  history
+   28  clear
+   29  git status
+   30  git add sample_1.py
+   31  git status
+   32  git commit -m 'first sample code'
+   33  git status
+   34  git log
+   35  git status
+   36  clear
+   37  git status
+   38  git push
+   39  history
+   40  clear
+   41  git status
+   42  git add sample_1.py
+   43  git status
+   44  git difftool
+   45  git difftool HEAD
+   46  git status
+   47  ls
+   48  cd test/
+   49  git status
+   50  git commit -m 'added prompt'
+   51  git push
+   52  git status
+   53  git status
+   54  git checkout --sample_1.py
+   55  git checkout -- sample_1.py
+   56  git status
+   57  git checkout -- .
+   58  git status
+   59  git add sample_1.py
+   60  git commit -m 'pizza'
+   61  git log
+   62  git add sample_1.py
+   63  git commit -m 'burger'
+   64  git log
+   65  git revert 7912449c2b83186dfe35779aebb91d2433fdb2c8
+   66  git log
+   67  git log 
+   68  git reset 7912449c2b83186dfe35779aebb91d2433fdb2c8
+   69  git reset --hard 7912449c2b83186dfe35779aebb91d2433fdb2c8
+   70  history
+   71  exit
+   72  git clone https://github.com/surajshiv/test.git
+   73  git status
+   74  ls
+   75  cd  test/
+   76  ls
+   77  git status
+   78  git add sample_1.py
+   79  git status
+   80  git commit sample_1.py
+   81  git push sample_1.py
+   82  git commit -m 'added marcos line'
+   83  git push
+   84  exit
+   85  ls
+   86  cd teq
+   87  cd test/
+   88  ls
+   89  git status
+   90  git status
+   91  git add sample_1.py
+   92  git status
+   93  git add sample_1.py
+   94  git commit -m 'added marcos removed'
+   95  git push
+   96  ls
+   97  vi sample_1.py 
+   98  git add sample_1.py
+   99  git status
+  100  git commit -m 'added manu'
+  101  git push
+  102  git status
+  103  git push
+  104  git commit -m 'added manu'
+  105  git status
+  106  git status
+  107  git checkout -- sample_1.py
+  108  git status
+  109  git status
+  110  git add sample_1.py
+  111  git status
+  112  git commit -m 'commit chk'
+  113  git log
+  114  git log
+  115  git revert 908a8efe3f029515835b913c30ef6b11f60c8f88 
+  116  git log
+  117  git revert 669da424d9379a1c6e388726939e30d88b41ac3f
+  118  git status
+  119  git add sample_1.py
+  120  git commit -m 'now'
+  121  git push
+  122  git status
+  123  git add sample_1.py
+  124  git commit -m 'now 1'
+  125  git push
+  126  git log
+  127  git revert 1773b60bbc067ccafa67cfbe89a00631ea4409de
+  128  git log
+  129  git log
+  130  ls
+  131  git log
+  132  clear
+  133  git status
+  134  git add sample_1.py
+  135  git commit -m 'stg 2'
+  136  git push
+  137  git branch
+  138  git branch 
+  139  git branch
+  140  git checkout stg
+  141  git branch
+  142  git status
+  143  git add sample_1.py
+  144  git commit -m 'branch1'
+  145  git checkout master
+  146  git checkout stg2
+  147  git checkout master
+  148  git merge stg2
+  149  git log
+  150  git merge stg2
+  151  git branch stg3
+  152  git branch
+  153  git checkout stg3
+  154  git checkout stg2
+  155  git checkout stg3
+  156  git commit -m 'stg3'
+  157  git add sample_1.py
+  158  git commit -m 'stg3'
+  159  git checkout stg2
+  160  git checkout master
+  161  git checkout master
+  162  git merge stg3
+  163  history
+  164  git checkout stg3
+  165  git push
+  166  git push --set-upstream origin stg3
+  167  history
+  168  git checkout -b dummy
+  169  git push
+  170  git push --set-upstream origin dummy
+  171  git branch -d dummy
+  172  git branch
+  173  git checkout master
+  174  git branch -d dummy
+  175  git push
+  176  git branch
+  177  git commit -m 'del br'
+  178  git branch
+  179  ls
+  180  git status
+  181  git branch
+  182  git status
+  183  git add sample_1.py 
+  184  git status
+  185  git status
+  186  git add sample_1.py 
+  187  git add sample_1.py 
+  188  git clone https://ekandas@gerrit.ericsson.se/a/ExecutiveAnalytics
+  189  pwd
+  190  ls
+  191  ls -la
+  192  cd ExecutiveAnalytics
+  193  ls
+  194  git status
+  195  git add sample_1.py
+  196  history
+  197  pwd
+  198  git add test.txt
+  199  git status
+  200  git commit
+  201  git commit
+  202  git clone https://ekandas@gerrit.ericsson.se/a/ExecutiveAnalytics
+  203  git clone https://ekandas@gerrit.ericsson.se/a/ExecutiveAnalytics
+  204  pwd
+  205  ls
+  206  cd ExecutiveAnalytics/
+  207  ls
+  208  git clone https://ekandas@gerrit.ericsson.se/a/EGDA
+  209  cd ..
+  210  ls
+  211  git clone https://ekandas@gerrit.ericsson.se/a/EGDA
+  212  pwd
+  213  ls
+  214  cd EGDA/
+  215  ls
+  216  pwd
+  217  ls
+  218  vi file.txt
+  219  pwd
+  220  ls
+  221  git add file.txt 
+  222  git status
+  223  git commit -m 'test'
+  224  git push
+  225  git clone https://ekandas@gerrit.ericsson.se/a/EGDA
+  226  git clone https://ekandas@gerrit.ericsson.se/a/EGDA
+  227  cd EGDA/
+  228  ls
+  229  git add 'Income Statement with new View.twbx'
+  230  git status
+  231  git commit -m 'Tab'
+  232  git push
+  233  pwd
+  234  https://github.com/surajshiv/test.git
+  235  git clone https://github.com/surajshiv/test.git
+  236  PWD
+  237  LS
+  238  CD C:\Users\ekandas\Desktop\MainFolder\python\git
+  239  cd C:\Users\ekandas\Desktop\MainFolder\python\git
+  240  ls
+  241  pwd
+  242  cd C:\\Users\\ekandas\\Desktop\\MainFolder\\python\\git
+  243  ls
+  244  pwd
+  245  git clone https://github.com/surajshiv/test.git
+  246  git clone https://github.com/surajshiv/test.git
+  247  git clone https://github.com/surajshiv/test.git
+  248  cd test
+  249  ls
+  250  touch hello.html
+  251  atom .
+  252  atom.
+  253  vs code .
+  254  vscode .
+  255  vscode .
+  256  ls
+  257  git add hello.html 
+  258  git commit -m "added hello.html"
+  259  git status
+  260  git push
+  261  git status
+  262  git status
+  263  git add hello.html 
+  264  git status
+  265  git commit -m "added hello.html after 1st change"
+  266  git push
+  267  git pull
+  268  git add hello.html 
+  269  git commit -m "added hello.html after 2st change"
+  270  git pull
+  271  git add hello.html 
+  272  git commit -m "added hello.html after correcting merge conflict"
+  273  git push
+  274  git log
+  275  w
+  276  pwd
+  277  git log
+  278  w
+  279  pwd
+  280  ls
+  281  git status
+  282* git 
+  283  git pull
+  284  git pull
+  285  git add hello.html 
+  286  git commit -m "added hello.html to check third pull check"
+  287  git push
+  288  git add hello.html 
+  289  git pull
+  290* git pu
+  291  git add hello.html 
+  292  git commit -m "added hello.html to check third pull check"
+  293  git push
+  294  git status
+  295  git pull
+  296  git push
+  297  git push
+  298  git pull
+  299  git add hello.html 
+  300  git commit -m "added hello.html to check third pull check"
+  301  git push
+  302  git pull
+  303  git pull
+  304  git add hello.html 
+  305  git commit -m "added hello.html to check third pull check"
+  306  git push
+  307  git pull
+  308  git pull
+  309  git pull
+  310  git add hello.html 
+  311  git commit -m "added hello.html to check third pull check"
+  312  git push
+  313  git pull
+  314  git push
+  315  git add hello.html 
+  316  git commit -m "added hello.html to check third pull check"
+  317  git push
+  318  git status 
+  319  git add hello.html 
+  320  git commit -m "added hello.html first"
+  321  git pull
+  322  git pull
+  323  git commit -m "added hello.html first"
+  324  git add hello.html 
+  325  git commit -m "added hello.html first"
+  326  git pull
+  327  git push
+  328  history
+  329  touch his >> history
+  330  git commit -m "added hello.html first"hisddd
+  331  pwd~/Desktop/MainFolder/python/git/test
+  332  pwd
+  333  history > test.txt
+  334  history > history.txt
+  335  pwd
+  336  git status
+  337  git add *
+  338  git comit -m "by own"
+  339  git push
+  340  git status
+  341  clone https://github.com/surajshiv/test.git
+  342  git clone https://github.com/surajshiv/test.git
+  343  pwd
+  344  cd test
+  345  ls
+  346  history > history.txt
